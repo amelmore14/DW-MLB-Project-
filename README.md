@@ -10,6 +10,6 @@ Each player has a different role on each different team. Many players are traded
 
 In my Data folder I have the links to both of my data sources. The first one being the downloaded data and the second one being the scraped data.
 
-In the Notebooks folder I have a readme file that talks about that is in the folder. There you can find both notebooks, the first being only me scraping the data from my second source and the second being the notebook holding the remainder of my code.
+In the Notebooks folder I have a readme file that talks about what is in the folder. There you can find both notebooks, the first being only the scraped data from my second source and the second being the notebook holding the remainder of my code.
 
 In the Results folder you can find my Final Report.
