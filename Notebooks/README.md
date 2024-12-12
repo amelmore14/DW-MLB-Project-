@@ -4,7 +4,7 @@
 
 ### 00elmore_DWProject will have only the scraped data
 
-### 01elmore_DWProject will have the remainder data
+### 01elmore_DWProject will have the remainder data:
 
 - Combining the two data sets
 
