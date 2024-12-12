@@ -6,6 +6,8 @@
 
 ### 01elmore_DWProject will have the remainder data
 
-    Combining the two data sets
-    Cleaning final data set
-    Answering research questions
+#### Combining the two data sets
+
+#### Cleaning final data set
+
+#### Answering research questions
