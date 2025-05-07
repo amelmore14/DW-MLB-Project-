@@ -7,23 +7,23 @@ This project analyzes hitting performance in Major League Baseball (MLB) using d
 I was inspired to take on this analysis because of my personal connection to baseball—my boyfriend is currently playing at the Division I level with aspirations of entering the MLB draft. His in-depth knowledge of the sport helped me better understand the nuances of player roles, team dynamics, and the statistics behind performance.
 
 ## Project Structure
+
 ```text
 MLB-Data-Wrangling-Project/
-│
 ├── Data/
-│ ├── rotowire_data.csv # Downloaded player stats
-│ ├── espn_scraped_data.csv # Scraped player info (experience, etc.)
-│ └── links.txt # URLs for both sources
+│   ├── rotowire_data.csv           # Downloaded player stats
+│   ├── espn_scraped_data.csv       # Scraped player info (experience, etc.)
+│   └── links.txt                   # URLs for both sources
 │
 ├── Notebooks/
-│ ├── scraping_notebook.ipynb # Scraping ESPN data
-│ ├── full_analysis_notebook.ipynb # Data cleaning, merging, and analysis
-│ └── README.md # Explanation of contents
+│   ├── scraping_notebook.ipynb     # Scraping ESPN data
+│   ├── full_analysis_notebook.ipynb # Data cleaning, merging, and analysis
+│   └── README.md                   # Explanation of contents
 │
 ├── Results/
-│ └── Elmore - Data Wrangling Project Report.pdf # Final project report
+│   └── Elmore - Data Wrangling Project Report.pdf # Final project report
 │
-└── README.md # Project overview (this file)
+└── README.md                       # Project overview (this file)
 ## Key Questions Explored
 
 1. **How does years of MLB experience affect batting average and home runs?**
