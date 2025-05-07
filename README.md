@@ -1,15 +1,59 @@
 # 3250 Data Wrangling MLB Project
 
-## Description
+## Overview
 
-This project is taking data from two Major Leauge Baseball cites and combining them into one singular dataframe. Whith this dataframe my goal was to understand how Years, Games Played, and Position effected Batting Average, Home Runs and On Base Percentage.
+This project analyzes hitting performance in Major League Baseball (MLB) using data combined from two sources: **RotoWire** and **ESPN.com**. The main objective is to explore how **years of experience**, **games played**, and **player position** influence three key performance metrics: **batting average**, **home runs**, and **on-base percentage**.
 
-Each player has a different role on each different team. Many players are traded each year to new teams where they have to take on the new role they were given. My interest in this sparked by my boyfriend currently playing baseball at a D1 level with hopes of being drafted in the next two years. With his in debth knowledge of the game and what happens behind closed doors, I was really able to understand the data.
+I was inspired to take on this analysis because of my personal connection to baseball—my boyfriend is currently playing at the Division I level with aspirations of entering the MLB draft. His in-depth knowledge of the sport helped me better understand the nuances of player roles, team dynamics, and the statistics behind performance.
 
-## Instructions
+## Project Structure
+MLB-Data-Wrangling-Project/
+│
+├── Data/
+│ ├── rotowire_data.csv # Downloaded player stats
+│ ├── espn_scraped_data.csv # Scraped player info (experience, etc.)
+│ └── links.txt # URLs for both sources
+│
+├── Notebooks/
+│ ├── scraping_notebook.ipynb # Scraping ESPN data
+│ ├── full_analysis_notebook.ipynb # Data cleaning, merging, and analysis
+│ └── README.md # Explanation of contents
+│
+├── Results/
+│ └── Elmore - Data Wrangling Project Report.pdf # Final project report
+│
+└── README.md # Project overview (this file)
+## Key Questions Explored
 
-In my Data folder I have the links to both of my data sources. The first one being the downloaded data and the second one being the scraped data.
+1. **How does years of MLB experience affect batting average and home runs?**
+2. **Do performance metrics differ by field position?**
+3. **Does playing time (games played) correlate with improvements in batting average and on-base percentage?**
 
-In the Notebooks folder I have a readme file that talks about what is in the folder. There you can find both notebooks, the first being only the scraped data from my second source and the second being the notebook holding the remainder of my code.
+## Findings
 
-In the Results folder you can find my Final Report.
+- **Experience**: No significant correlation was found between years of experience and batting average or home runs.
+- **Position**: Designated hitters (DH) and first basemen had the highest batting averages and home run totals.
+- **Playing Time**: Players who appeared in more games generally had slightly higher batting averages and on-base percentages, possibly due to increased rhythm and familiarity with pitchers.
+
+## Tools & Libraries
+
+- **Python**
+- **Pandas**, **NumPy** – data manipulation
+- **BeautifulSoup** – web scraping ESPN
+- **Matplotlib**, **Seaborn** – data visualization
+- **Jupyter Notebook**
+
+## How to Use
+
+1. Open `scraping_notebook.ipynb` in the **Notebooks** folder to see how player experience data was scraped from ESPN.
+2. Open `full_analysis_notebook.ipynb` to review the data cleaning, merging, and analysis process.
+3. Check the **Results** folder for the final report summarizing all findings with visuals and interpretation.
+4. Refer to the **Data** folder for both original and processed datasets.
+
+## Future Work
+
+- Add multi-season data to analyze long-term trends.
+- Include player **age**, **injury history**, and **advanced metrics** (e.g., WAR).
+- Compare with pitching stats or include defensive performance.
+
+---
