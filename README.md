@@ -7,6 +7,7 @@ This project analyzes hitting performance in Major League Baseball (MLB) using d
 I was inspired to take on this analysis because of my personal connection to baseball—my boyfriend is currently playing at the Division I level with aspirations of entering the MLB draft. His in-depth knowledge of the sport helped me better understand the nuances of player roles, team dynamics, and the statistics behind performance.
 
 ## Project Structure
+```text
 MLB-Data-Wrangling-Project/
 │
 ├── Data/
